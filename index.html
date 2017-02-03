@@ -2,7 +2,7 @@
 
 <html>
   <head>
-    <title>Hadley Wickham &hearts; Open Source</title>
+    <title>Jasmine Dumas &hearts; Open Source</title>
     <link rel="stylesheet" type="text/css" href="assets/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/grid.css">
     <link rel="stylesheet" type="text/css" href="assets/style.css">
@@ -60,7 +60,7 @@
         $item.appendTo("#repos");
       }
 
-      $.getJSON("https://api.github.com/users/hadley/repos?per_page=100&callback=?", function (result) {
+      $.getJSON("https://api.github.com/users/jasdumas/repos?per_page=100&callback=?", function (result) {
         var repos = result.data;
 
         $(function () {
@@ -112,9 +112,10 @@
   <body>
     <div id="wrapper" class="grid clearfix">
       <div id="main" class="grid-1">
-        <div><h1>Hadley Wickham's github repos</h1></div>
+        <div><h1>Jasmine Dumas' Github repos</h1></div>
         <p>This is an index to my open source repos on github</p>
         <p>Page based on <a href="http://twitter.github.com/">http://twitter.github.com/</a></p>
+        <p> and forked from <a href="https://github.com/hadley/hadley.github.com">https://github.com/hadley/hadley.github.com</a>.</p>
 
       </div>
 
@@ -122,14 +123,14 @@
         <div id="statistics" class="grid-1 alpha header">
           <h1>Statistics</h1>
           <p>
-            <a href="https://github.com/hadley/repositories"><span id="num-repos">&nbsp;</span> public repos</a>
+            <a href="https://github.com/jasdumas/repositories"><span id="num-repos">&nbsp;</span> public repos</a>
             <br>
           </p>
-          <p class="email"><a href="mailto:hadley@rice.edu">hadley@rice.edu</a></p>
+          <p class="email"><a href="mailto:jasmine.dumas@gmail.com">email me</a></p>
         </div>
 
         <div id="recently-updated" class="grid-2 omega header">
-          <h1>Recently updated <a href="https://github.com/hadley/repositories">View All on GitHub</a></h1>
+          <h1>Recently updated <a href="https://github.com/jasdumas/repositories">View All on GitHub</a></h1>
           <ol id="recently-updated-repos"></ol>
         </div>
       </div>
